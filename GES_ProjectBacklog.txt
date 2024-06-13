@@ -1,0 +1,18 @@
+Global Employee Services
+
+Product Backlog:
+1. Signup and Signin feature
+
+2.User should be able to apply leaves depending on the available leave balance.
+  a. Validation should be apllied for number of days of the applied leaves.
+  * If number of leaves applied is greater than available leave balance then through error "you dont have sufficient leave balance to apply leave".
+  * If user is applying sick leave less than two days then leave should go to manager for approval
+  * If the above leave is applied is more than two days it should go to Manager and then HR for approval.
+  * When leave leave is applied leave balance will be reducted.
+  
+3.User should be able to create applied leave.
+  a. Below category of applied leave can be cancelled:
+      i.Future dated pending leaves.
+     ii.Past dated pending leaves.
+    iii.Future dated approved leaves.
+  b. If user cancels a sick leave then the approved should follow the same work flow
